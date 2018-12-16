@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cifrados</title>
+	 <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+	<h1>Cifrados</h1>
+</head>
+<body>
+	 <!-- place the custom tag anywhere inside the body -->
+	 <mensaje></mensaje>
+    <preview-comment></preview-comment>
+    <cifrado-transposicion-inversa></cifrado-transposicion-inversa>
+        <cifrado-transposicion-inversa-agrupada></cifrado-transposicion-inversa-agrupada>
+
+    <!-- include the tag -->
+    <script src="bower_components/riot/riot+compiler.min.js"></script>
+    <script type="riot/tag" src="./tags/sample.tag"></script>
+    <script type="riot/tag" src="./tags/todo.tag"></script>
+    <script type="riot/tag" src="./tags/mensaje.tag"></script>
+    <script type="riot/tag" src="./tags/preview-comment.tag"></script>
+    <script type="riot/tag" src="./tags/cifrado-transposicion-inversa.tag"></script>
+    <script type="riot/tag" src="./tags/cifrado-transposicion-inversa-agrupada.tag"></script>
+
+
+
+    <!-- include riot.js -->
+    
+    <!-- mount the tag -->
+    <script>riot.mount('sample')</script>
+    <script>riot.mount('todo')</script>
+    <script>riot.mount('preview-comment')</script>
+    <script>riot.mount('mensaje')</script>
+    <script>riot.mount('cifrado-transposicion-inversa')</script>
+    <script>riot.mount('cifrado-transposicion-inversa-agrupada')</script>
+
+</body>
+</html>
